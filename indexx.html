@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Saibou Hanatou - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="profile.jpg" alt="Ali Saibou Hanatou">
+            </div>
+            <h1>Ali Saibou Hanatou</h1>
+            <p>Étudiante en génie logiciel | Web Designer | Infographiste | Développeuse Mobile</p>
+        </div>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Je suis une passionnée de technologie et de création visuelle. Actuellement en Master 2 de génie logiciel à l'IAT au Niger, je possède des compétences solides en web design, infographie et développement mobile. Mon expertise en WordPress, Photoshop et Canva me permet de concevoir des interfaces modernes et intuitives. En parallèle, je développe mes compétences en programmation mobile. Mon amour pour la photographie renforce mon œil artistique, me permettant d'apporter une touche unique à mes projets.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Web Design No-Code (WordPress)</li>
+                <li>Infographie & Design Graphique (Photoshop, Canva)</li>
+                <li>Développement mobile</li>
+                <li>Création de supports visuels pour le digital et l'impression</li>
+                <li>Branding et identité visuelle</li>
+                <li>Photographie et retouche d'images</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projets</h2>
+            <div class="project-list">
+                <div class="project-item">Projet 1 - [Ajouter une image + description]</div>
+                <div class="project-item">Projet 2 - [Ajouter une image + description]</div>
+                <div class="project-item">Projet 3 - [Ajouter une image + description]</div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email : <a href="mailto:hannahsaib6@gmail.com">hannahsaib6@gmail.com</a></p>
+            <p>Téléphone : +227 82489336 / 77998934</p>
+            <p>Adresse : Yantala, Niamey</p>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ali Saibou Hanatou - Portfolio | Designed with passion</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    background: #4B5320;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+section {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: #4B5320;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+.project-list {
+    display: flex;
+    gap: 10px;
+}
+.project-item {
+    background: #ddd;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #4B5320;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: #3A4215;
+}
+footer {
+    background: #3A4215;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+</style>
